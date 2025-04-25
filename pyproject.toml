@@ -1,0 +1,25 @@
+#! /usr/bin/env toml
+# install: pip install git+https://github.com/kuttor/rota.git
+
+[build-system]
+requires = ["setuptools>=79", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rota"
+version = "1.0.0"
+description = "Cleans, reports, and rotates versioned files in a target S3 bucket."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "boto3>=1.35.0",
+  "click>=8.1.0"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/kuttor/rota"
+"Documentation" = "https://github.com/kuttor/rota#readme"
+"Issue Tracker" = "https://github.com/kuttor/rota/issues"
+
+[project.scripts]
+rota = "rota.cli:main"
