@@ -6,13 +6,13 @@ A Python CLI tool for managing versioned files in AWS S3 buckets. Built with bot
 - Generate version reports
 - Rotate versioned files
 
-## Installation
+## 🚀 Installation
 
 ```bash
 pip install git+https://github.com/kuttor/rota.git
 ```
 
-## Configuration
+## 🔧 Configuration
 
 Default config location: `$XDG_CONFIG_HOME/rota/rota.conf`  
 Custom location: Set `$ROTA_CONFIG_FILE` environment variable
