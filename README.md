@@ -14,8 +14,8 @@ pip install git+https://github.com/kuttor/rota.git
 
 ## 🔧 Configuration
 
-Default config location: `$XDG_CONFIG_HOME/rota/rota.conf`  
-Custom location: Set `$ROTA_CONFIG_FILE` environment variable
+- Default location: `$XDG_CONFIG_HOME/rota/rota.conf`  
+- Custom location: `export ROTA_CONFIG_FILE=/path/to/rota.conf`
 
 ## 📦 Features
 
